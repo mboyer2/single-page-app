@@ -1,0 +1,133 @@
+@font-face {
+font-family: 'Bebas Neue';
+font-style: normal;
+font-weight: normal;
+src: local('Bebas Neue'), url('BebasNeue.woff') format('woff');
+}
+
+
+
+body{
+	background:rgb(233,237,239);
+}
+
+.padding{
+	padding-left: 2.3rem;
+	padding-right: 2.3rem;
+}
+
+.bebas{
+	font-family: bebas neue, serif;
+}
+
+.white-text{
+	color:white;
+}
+
+.black-text{
+	color:black;
+	font-size: 2.5rem;
+}
+
+.black-text-small{
+	color:black;
+}
+
+.black{
+	background:rgb(26, 30, 35);
+}
+
+.sm-space{
+	height:1rem
+}
+
+.xs-space{
+	height: .5rem;
+}
+
+.m-space{
+	height:2rem;
+}
+
+.xl-space{
+	height:21rem;
+}
+.white{
+	background: white;
+}
+
+.image{
+	width:100%;	
+	height: 100%;
+}
+
+.illustration-head{
+	font-size:3.2rem;
+}
+
+.head-content{
+	font-family:  Calluna-Light, Georgia, serif;
+	line-height: 2rem;
+	font-weight: 600;
+	font-size: 1.1rem;
+	letter-spacing: .02rem;
+	padding-left: 2.3rem;
+	padding-right: 2.3rem;
+	justify-content: center;
+}
+
+
+a{
+	color:black;
+	text-decoration:none;
+}
+
+a:hover{
+	color:rgb(181,26,23);
+}
+
+p{
+	font-family:  Calluna-Light, Georgia, serif;
+	line-height: 1.65rem;
+	font-weight: 0;
+	margin-bottom: .5rem;
+}
+
+
+/* ------heading------*/
+
+#logo{
+	font-family: bebas neue; 
+	font-size: 4rem;
+	text-decoration: none;
+}
+#tagline-row{
+	height:2rem;
+}
+#tagline{
+	font-family: Calluna-Light, Georgia, serif;
+}
+
+
+.nav-text{
+	font-family: bebas neue, serif; 
+	font-size: 1.5rem;
+}
+
+/*------Mayan Intro------*/
+
+#mayan-intro{
+	height:40rem;
+}
+
+/*------Mayan Poster Photos------*/
+
+
+.mex-column-photo{
+	padding-left: 0rem;
+	padding-right: 0rem;
+}
+
+.mex-photo{
+	width:100%;
+}
